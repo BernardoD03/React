@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+
+}
+
+.container{
+    color: white;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 71%;
+    margin: 37px auto;
+    padding: 1% 0;
+    gap: 40px;
+}
+
+.subcontainer{
+    height: 590px;
+    background-color: gray;
+    flex-wrap: wrap;
+    width: 380px;
+}
+
+
+.teste{
+    height: 66%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.subcontainer p, .subcontainer h3{
+    font-family: Arial;
+    margin-left: 25px;
+}
+
+.subcontainer h3{
+    font-size: 25px;
+}
+
+.subcontainer p{
+    font-size: 20px;
+}
+
+img{
+    width: 100%;
+}
